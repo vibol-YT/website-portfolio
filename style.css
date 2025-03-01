@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    background-image: url(./assets/background1.jpg);
+    background-size: cover;
+
+}
+
+.hero {
+    -webkit-backdrop-filter: blur(70px);
+    backdrop-filter: blur(30px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: 600;
+    color: aqua;
+    filter: drop-shadow(0 0 10px);
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 20px ;
+}
+
+a:hover{
+    scale: 1.1;
+    color: #333;
+    background: transparent;
+    border: 2px ;
+    transition: .3s ease;
+    text-decoration: underline;
+    filter: drop-shadow( 0 .8px 2px);
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.nav ul li a {
+    margin-left: 20px;
+    margin: 20px;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: none;
+    margin-top: 120px;
+    padding: 20px;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 15px;
+}
+
+.content-link {
+    position: relative;
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-right: 20pc;
+}
+h2 {
+    font-size: 60px;
+}
+h3{
+    font-size: 30px;
+}
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+img {
+    width: 400px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    filter: drop-shadow(0 0 20px);
+}
+.img {
+    width: 300px;
+    margin-right: 10pc;
+}
+
+.icon {
+    font-size: 40px;
+}
+.icon i {
+    margin: 0px;
+    margin-top: 20px;
+    color: #333;
+    font-size: 40px;
+    transition: .4s ease-in;
+}
+
+.icon i:hover{
+    transition: .4s ease-in-out;
+    scale: 1.1;
+    filter: drop-shadow(0 0 10px aqua);
+    border-radius: 20px;
+    color: #333;
+    box-shadow: 2px 2px 10px #333;
+}
+
+.content-nav {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    position: relative;
+}
+input {
+        position: absolute;
+        padding: 15px;
+        color: aqua;
+        font-size: 17px;
+        justify-content: center;
+        width: 300px;
+        border: 2px solid;
+        height: 30px;
+        box-shadow: 0 0 10px aqua;
+        background: transparent;
+        border-radius: 20px;
+}
+input:hover {
+    transition: .4s ease-in-out;
+    box-shadow: 0 0px 10px yellowgreen ;
+}
+.iconcc {
+    margin:9px;
+    font-size: 16px;
+    margin-left: 280px;
+}
+
+button {
+    position: absolute;
+    padding: 0px;
+    height: 40px;
+    color: aqua;
+    border-radius: 20px;
+    width: 200px;
+    filter: drop-shadow(0 0 10px);
+    border: 2px solid;
+    background: transparent;
+    font-size: 20px;
+    transition: .4s ease-in;
+}
+
+button:hover {
+    scale: 1.1;
+    transition: .4s ease-in-out;
+    color: #333;
+    background: aqua;
+    box-shadow: 0 0 10px yellowgreen ;
+
+}
+
+
